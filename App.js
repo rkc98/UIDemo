@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import AppNavigator from './navigation/AppNavigator';
 import OnBoarding from './screens/OnBoarding';
 import ThirdDemo from './screens/ThirdDemo';
 import TwoDemo from './screens/TwoDemo';
@@ -12,7 +13,8 @@ export default function App() {
     <>
     {/* <OnBoarding /> */}
   {/* <TwoDemo /> */}
-  <ThirdDemo />
+  {/* <ThirdDemo /> */}
+  <AppNavigator />
   </>
     )
 }
