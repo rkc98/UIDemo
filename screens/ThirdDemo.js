@@ -5,10 +5,10 @@ import LinearGradient from 'react-native-linear-gradient'
 import { TextInput } from 'react-native-paper'
 import { TouchableOpacity } from 'react-native'
 import  Icon from 'react-native-vector-icons/AntDesign'
-import { Input } from 'react-native-elements/dist/input/Input'
 
 
-const TwoDemo = () => {
+
+const ThirdDemo = () => {
     return (
     
       
@@ -27,21 +27,22 @@ const TwoDemo = () => {
             <View style={styles.formContainer}>
             <TextInput left={<TextInput.Icon name={()=><Icon name='user' size={20} color='#3366ff' style={{
                 marginTop:10
-            }} />} />} label="Shop Owner Name" style={styles.inputs} mode="outlined" />
+            }} />} />} label="Shop Owner Name" style={{marginHorizontal:"5%",backgroundColor:"white"}} />
+
             {/* <Icon name="user" size={20} color='blue' /> */}
             {/* <TextInput label="Shop Name" style={styles.inputs} /> */}
             {/* <TextInput label="Shop Address" style={styles.inputs} /> */}
             {/* <TextInput label="Pincode" style={styles.inputs} /> */}
             <TextInput left={<TextInput.Icon name={()=><Icon name='calendar' size={20} color='#3366ff' style={{
                 marginTop:10
-            }} />} />} label="Date Of Birth" mode="outlined" style={styles.inputs} />
+            }} />} />} label="Date Of Birth"  style={styles.inputs} />
             <TextInput left={<TextInput.Icon name={()=><Icon name='mobile1' size={20} color='#3366ff' style={{
                 marginTop:10
-            }} />} />} label="Mobile Number" mode="outlined" style={styles.inputs} />
+            }} />} />} label="Mobile Number"  style={styles.inputs} />
             <TextInput left={<TextInput.Icon name={()=><Icon name='mail' size={20} color='#3366ff'
             style={{
                 marginTop:10
-            }} />} />} label="Email Id" mode="outlined" style={styles.inputs} 
+            }} />} />} label="Email Id"  style={styles.inputs} 
              />
             {/* <TextInput placeholder="Gst IN" style={styles.inputs} /> */}
             {/* <View style={styles.rows}>
@@ -78,7 +79,7 @@ const TwoDemo = () => {
     )
 }
 
-export default TwoDemo
+export default ThirdDemo
 
 const styles = StyleSheet.create({
     // main:{
@@ -101,11 +102,7 @@ const styles = StyleSheet.create({
 
     },
     inputs:{
-        width:"90%",
-        marginHorizontal:"5%",
-        height:40,
-        padding:10,
-        color:"black"        
+        marginHorizontal:"5%",backgroundColor:"white"    
     },
     button:{
        alignItems:'center',
