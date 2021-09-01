@@ -51,7 +51,7 @@ const OnBoarding = ({navigation}) => {
 
             </View> */}
             </View>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity style={styles.button} onPress={()=>navigation.navigate('second')}>
            <Text style={{color:"white"}}>REGISTER</Text>
            </TouchableOpacity>
         </View>
@@ -102,8 +102,8 @@ const styles = StyleSheet.create({
         padding:10,
          marginTop:30,
          marginHorizontal:20,
-         // color:"#1a53ff",
          borderRadius:30,
+         marginBottom:30
          
          
      },

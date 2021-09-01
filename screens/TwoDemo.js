@@ -63,7 +63,7 @@ const TwoDemo = () => {
  */}
 
            {/* <View style={styles.button} ><Button title="Register" color="#1a53ff"  /></View> */}
-           <TouchableOpacity style={styles.button}>
+           <TouchableOpacity style={styles.button} onPress={()=>navigation.navigate('third')}>
            <Text style={{color:"white"}}>REGISTER</Text>
            </TouchableOpacity>
 
